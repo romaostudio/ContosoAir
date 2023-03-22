@@ -45,6 +45,7 @@ steps:
     appType: 'webApp'
     WebAppName: '$(web_prefix)-$(web_site)-$(web_environment)'
     packageForLinux: '$(Pipeline.Workspace)/**/*.zip'
+    
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
